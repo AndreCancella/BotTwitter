@@ -36,5 +36,4 @@ time.sleep(10.0)
 btnSair = driver.find_element_by_xpath('//*[@id="react-root"]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div[3]/div[2]')
 btnSair.click()
 
-driver.refresh()
 driver.quit()
