@@ -30,10 +30,5 @@ btnSair = driver.find_element_by_xpath('//*[@id="react-root"]/div/div/div[1]/div
 btnSair.click()
 time.sleep(5.0)
 
-#saindo
-driver.get('https://twitter.com/logout')
-time.sleep(10.0)
-btnSair = driver.find_element_by_xpath('//*[@id="react-root"]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div[3]/div[2]')
-btnSair.click()
 
 driver.quit()
